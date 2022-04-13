@@ -1,0 +1,15 @@
+C:\Users\ENDERSSONMENDOZA\source\repos\CalculadoraINSS\CalculadoraINSS\bin\Debug\netstandard2.0\CalculadoraINSS.deps.json
+C:\Users\ENDERSSONMENDOZA\source\repos\CalculadoraINSS\CalculadoraINSS\bin\Debug\netstandard2.0\CalculadoraINSS.dll
+C:\Users\ENDERSSONMENDOZA\source\repos\CalculadoraINSS\CalculadoraINSS\bin\Debug\netstandard2.0\ref\CalculadoraINSS.dll
+C:\Users\ENDERSSONMENDOZA\source\repos\CalculadoraINSS\CalculadoraINSS\bin\Debug\netstandard2.0\CalculadoraINSS.pdb
+C:\Users\ENDERSSONMENDOZA\source\repos\CalculadoraINSS\CalculadoraINSS\obj\Debug\netstandard2.0\CalculadoraINSS.csproj.AssemblyReference.cache
+C:\Users\ENDERSSONMENDOZA\source\repos\CalculadoraINSS\CalculadoraINSS\obj\Debug\netstandard2.0\CalculadoraINSS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ENDERSSONMENDOZA\source\repos\CalculadoraINSS\CalculadoraINSS\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ENDERSSONMENDOZA\source\repos\CalculadoraINSS\CalculadoraINSS\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ENDERSSONMENDOZA\source\repos\CalculadoraINSS\CalculadoraINSS\obj\Debug\netstandard2.0\CalculadoraINSS.AssemblyInfoInputs.cache
+C:\Users\ENDERSSONMENDOZA\source\repos\CalculadoraINSS\CalculadoraINSS\obj\Debug\netstandard2.0\CalculadoraINSS.AssemblyInfo.cs
+C:\Users\ENDERSSONMENDOZA\source\repos\CalculadoraINSS\CalculadoraINSS\obj\Debug\netstandard2.0\CalculadoraINSS.csproj.CoreCompileInputs.cache
+C:\Users\ENDERSSONMENDOZA\source\repos\CalculadoraINSS\CalculadoraINSS\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ENDERSSONMENDOZA\source\repos\CalculadoraINSS\CalculadoraINSS\obj\Debug\netstandard2.0\CalculadoraINSS.dll
+C:\Users\ENDERSSONMENDOZA\source\repos\CalculadoraINSS\CalculadoraINSS\obj\Debug\netstandard2.0\ref\CalculadoraINSS.dll
+C:\Users\ENDERSSONMENDOZA\source\repos\CalculadoraINSS\CalculadoraINSS\obj\Debug\netstandard2.0\CalculadoraINSS.pdb

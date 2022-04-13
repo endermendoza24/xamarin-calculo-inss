@@ -6,11 +6,12 @@
     <StackLayout VerticalOptions="Center"
                  HorizontalOptions="Center">
         <Label Text="Cálculo pensión INSS"></Label>
-        <Entry Placeholder="Número de semanas"></Entry>
-        <Entry Placeholder="Promedio salarial"></Entry>
-        <Entry Placeholder="Tu pensión es: "></Entry>
+        <Entry Placeholder="Promedio salarial" x:Name="Salario"></Entry>
+        <Entry Placeholder="Número de semanas" x:Name="Semanas"></Entry>
+        <Entry Placeholder="Tu pensión es: " x:Name="Resultado"></Entry>
+        
 
-        <Button Text="Calcular"></Button>
+        <Button Text="Calcular" Clicked="Button_Clicked"></Button>
     </StackLayout>
 
 </ContentPage>
