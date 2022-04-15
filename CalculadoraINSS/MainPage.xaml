@@ -1,17 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CalculadoraINSS.MainPage">
+             x:Class="CalculadoraINSS.MainPage"
+             Visual="Material">
 
     <StackLayout VerticalOptions="Center"
-                 HorizontalOptions="Center">
-        <Label Text="Cálculo pensión INSS"></Label>
-        <Entry Placeholder="Promedio salarial" x:Name="Salario"></Entry>
-        <Entry Placeholder="Número de semanas" x:Name="Semanas"></Entry>
-        <Entry Placeholder="Tu pensión es: " x:Name="Resultado"></Entry>
+                 HorizontalOptions="Center"
+                 WidthRequest="250">
+        <Label Text="Cálculo pensión INSS"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               FontSize="50"
+               TextColor="#565861"></Label>
+        <Label Text="" x:Name="Alerta" TextColor="Red"></Label>
+        <Entry Placeholder="Promedio salarial" x:Name="Salario" Keyboard="Numeric"></Entry>
+        <Entry Placeholder="Número de semanas" x:Name="Semanas" Keyboard="Numeric"></Entry>
+        <Entry Placeholder="Tu pensión es: " x:Name="Resultado" IsEnabled="False" FontAttributes="Bold"></Entry>
         
 
-        <Button Text="Calcular" Clicked="Button_Clicked"></Button>
+        <Button Text="Calcular" Clicked="Button_Clicked" BackgroundColor="Black"></Button>
     </StackLayout>
 
 </ContentPage>

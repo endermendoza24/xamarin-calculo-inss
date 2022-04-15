@@ -20,29 +20,44 @@ namespace CalculadoraINSS
         }
 
         public void Button_Clicked(object sender, EventArgs e)
-        {           
+        {
             try
             {
-                var semanasUsuario = Convert.ToInt32(Semanas.Text);
-                var salarioUsuario = Convert.ToDouble(Salario.Text);
+                if (!string.IsNullOrEmpty(Semanas.Text) && !string.IsNullOrEmpty(Salario.Text))
+                {
+                    var semanasUsuario = Convert.ToInt32(Semanas.Text);
+                    var salarioUsuario = Convert.ToDouble(Salario.Text);
 
-                // dteerminar que funcion se va a llamar...
-                if (semanasUsuario >= 250 && semanasUsuario <= 749)
-                {
-                    Resultado.Text = Convert.ToString(pensionReducida(semanasUsuario));
-                }
-                else if (semanasUsuario >= 750)
-                {
-                    Resultado.Text = Convert.ToString(pensionJubilacion(semanasUsuario, salarioUsuario));
+                    // dteerminar que funcion se va a llamar...
+                    if (semanasUsuario >= 250 && semanasUsuario <= 749)
+                    {
+                        Alerta.Text = "Aplica a pensión reducida";
+                        Resultado.Text ="C$ " + Convert.ToString(pensionReducida(semanasUsuario));
+                    }
+                    else if (semanasUsuario >= 750)
+                    {
+                        Alerta.Text = "Aplica a pensión jubilación";
+                        Resultado.Text = "C$ " + Convert.ToString(pensionJubilacion(semanasUsuario, salarioUsuario));
+                    }
+                    else
+                    {
+                        Resultado.Text = "0";
+                        DisplayAlert("!!!","Las semanas que cotizó no son suficientes para optar a una pensión", "Aceptar");
+                    }
+                    limpiarControles();
                 }
                 else
                 {
-                    Resultado.Text = "Las semanas que usted cotizó no son suficientes para optar a una pensión";
+                    Alerta.Text = "";
+                    DisplayAlert("Datos  vacíos", "Debe de llenar toda la información", "Aceptar");
                 }
+
+               
             }
             catch (Exception)
             {
-                Resultado.Text = "Ocurrió un error inesperado";
+                //Resultado.Text = "Ocurrió un error inesperado";
+                DisplayAlert("¡Error!", "Ocurrió un eror en la entrada de datos", "Aceptar");
             }
 
         }
@@ -67,8 +82,9 @@ namespace CalculadoraINSS
             {
                 pension = 3656;
             }
-            
+            //limpiarControles();
             return pension;
+            
         }
 
         public double pensionJubilacion(int semanasU, double salario)
@@ -84,14 +100,22 @@ namespace CalculadoraINSS
             if (pension < 5000)
             {
                 pension = 5000;
-            }else if(pension >= 53.595)
+            }else if(pension >= 53595)
             {
-                pension = 53.595;
+                pension = 53595;
             }
-            
 
 
+            //limpiarControles();
             return Math.Round(pension,2);
+            
+        }
+
+        public void limpiarControles()
+        {
+            Semanas.Text = "";
+            Salario.Text = "";
+            
         }
     }
 }

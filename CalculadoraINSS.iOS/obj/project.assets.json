@@ -28,7 +28,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2012": {
+      "Xamarin.Forms/5.0.0.2401": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -151,12 +151,33 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Visual.Material/5.0.0.2401": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.iOS.MaterialComponents": "92.0.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll": {}
+        }
+      },
+      "Xamarin.iOS.MaterialComponents/92.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/MaterialComponents.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/MaterialComponents.dll": {}
+        }
+      },
       "CalculadoraINSS/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "5.0.0.2401"
         },
         "compile": {
           "bin/placeholder/CalculadoraINSS.dll": {}
@@ -193,7 +214,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2012": {
+      "Xamarin.Forms/5.0.0.2401": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -316,12 +337,33 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Visual.Material/5.0.0.2401": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.iOS.MaterialComponents": "92.0.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll": {}
+        }
+      },
+      "Xamarin.iOS.MaterialComponents/92.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/MaterialComponents.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/MaterialComponents.dll": {}
+        }
+      },
       "CalculadoraINSS/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "5.0.0.2401"
         },
         "compile": {
           "bin/placeholder/CalculadoraINSS.dll": {}
@@ -358,7 +400,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2012": {
+      "Xamarin.Forms/5.0.0.2401": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -481,12 +523,33 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Visual.Material/5.0.0.2401": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.iOS.MaterialComponents": "92.0.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll": {}
+        }
+      },
+      "Xamarin.iOS.MaterialComponents/92.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/MaterialComponents.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/MaterialComponents.dll": {}
+        }
+      },
       "CalculadoraINSS/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "5.0.0.2401"
         },
         "compile": {
           "bin/placeholder/CalculadoraINSS.dll": {}
@@ -523,7 +586,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2012": {
+      "Xamarin.Forms/5.0.0.2401": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -646,12 +709,33 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Visual.Material/5.0.0.2401": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.iOS.MaterialComponents": "92.0.0"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll": {}
+        }
+      },
+      "Xamarin.iOS.MaterialComponents/92.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/MaterialComponents.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/MaterialComponents.dll": {}
+        }
+      },
       "CalculadoraINSS/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Forms": "5.0.0.2401"
         },
         "compile": {
           "bin/placeholder/CalculadoraINSS.dll": {}
@@ -761,10 +845,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/5.0.0.2012": {
-      "sha512": "Rqc6xvWR/sf+Db5+qRCFmuYTWVp04QWRfwPto2/JHbShSy4Ed53Q2jpoFzsoloXkJA6saD236PlaWAhT6vI4gw==",
+    "Xamarin.Forms/5.0.0.2401": {
+      "sha512": "fk/V8QWjeyo8UXcsqsNRMd6o1H5PBfyXYm97nxvhMsJIdeqDgfRWyIsSurM8uLGLQGdQP23R+hHj7vcTSo2UjQ==",
       "type": "package",
-      "path": "xamarin.forms/5.0.0.2012",
+      "path": "xamarin.forms/5.0.0.2401",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -973,8 +1057,43 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.5.0.0.2012.nupkg.sha512",
+        "xamarin.forms.5.0.0.2401.nupkg.sha512",
         "xamarin.forms.nuspec"
+      ]
+    },
+    "Xamarin.Forms.Visual.Material/5.0.0.2401": {
+      "sha512": "Kasq35jSPYukvX9sp5jTOK87IoKcyecqBLDLLVtJrZA+5GrDTG/k+sZ9ItsH3hYPEXEjVnXkYilnTYZQcYhvhA==",
+      "type": "package",
+      "path": "xamarin.forms.visual.material/5.0.0.2401",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/xamarin_128x128.png",
+        "build/MonoAndroid10/Xamarin.Forms.Visual.Material.targets",
+        "buildTransitive/MonoAndroid10/Xamarin.Forms.Visual.Material.targets",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Material.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Material.pdb",
+        "lib/MonoAndroid10/_._",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.pdb",
+        "lib/netstandard1.0/_._",
+        "lib/tizen40/Xamarin.Forms.Material.dll",
+        "lib/tizen40/Xamarin.Forms.Material.pdb",
+        "xamarin.forms.visual.material.5.0.0.2401.nupkg.sha512",
+        "xamarin.forms.visual.material.nuspec"
+      ]
+    },
+    "Xamarin.iOS.MaterialComponents/92.0.0": {
+      "sha512": "I0mVxJBHsaR2NtFbZmafSLmIB4FUOSfSOf1SW3i2UA0TyoWr+F0AdrLtPRQtXq97LUg0fEnWhaq+4suVxbDbFw==",
+      "type": "package",
+      "path": "xamarin.ios.materialcomponents/92.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/Xamarin.iOS/MaterialComponents.dll",
+        "xamarin.ios.materialcomponents.92.0.0.nupkg.sha512",
+        "xamarin.ios.materialcomponents.nuspec"
       ]
     },
     "CalculadoraINSS/1.0.0": {
@@ -987,7 +1106,8 @@
     "Xamarin.iOS,Version=v1.0": [
       "CalculadoraINSS >= 1.0.0",
       "Xamarin.Essentials >= 1.6.1",
-      "Xamarin.Forms >= 5.0.0.2012"
+      "Xamarin.Forms >= 5.0.0.2401",
+      "Xamarin.Forms.Visual.Material >= 5.0.0.2401"
     ]
   },
   "packageFolders": {
@@ -1038,7 +1158,11 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[5.0.0.2012, )"
+            "version": "[5.0.0.2401, )"
+          },
+          "Xamarin.Forms.Visual.Material": {
+            "target": "Package",
+            "version": "[5.0.0.2401, )"
           }
         }
       }

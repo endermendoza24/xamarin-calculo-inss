@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "uxEArRvRrV9NB0/VwDVVowPJ59gi5OgyNEHHh4EXji/4nePLJomzRibLVxrva2uM6oRZrTSBduFGOINW9U7imw==",
+  "dgSpecHash": "g87hzfMc8+04YXBIo3lyJgFqDWR140u2/kG7YEXhYjvqQL5J+i1EDjpRt22H6kglN8Ws/JTNmBHc0D/2h4BPAw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ENDERSSONMENDOZA\\source\\repos\\CalculadoraINSS\\CalculadoraINSS.iOS\\CalculadoraINSS.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ENDERSSONMENDOZA\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Users\\ENDERSSONMENDOZA\\.nuget\\packages\\xamarin.forms\\5.0.0.2401\\xamarin.forms.5.0.0.2401.nupkg.sha512",
+    "C:\\Users\\ENDERSSONMENDOZA\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2401\\xamarin.forms.visual.material.5.0.0.2401.nupkg.sha512",
+    "C:\\Users\\ENDERSSONMENDOZA\\.nuget\\packages\\xamarin.ios.materialcomponents\\92.0.0\\xamarin.ios.materialcomponents.92.0.0.nupkg.sha512"
   ],
   "logs": []
 }
